@@ -1,4 +1,4 @@
-# Slide Menu makes sliding menus
+# Slide Menu makes sliding menus \([Demo](http://scottchang.net/slidemenudemo)\)
 
 I developed this little plugin for my own purposes, but I hope it will help more people create sliding menus that glide along vertically as you scroll up and down. For convenience, it is bundled with Smooth Anchors 2 by Ian Whitcomb.
 
