@@ -40,7 +40,7 @@ Next mark up the rest of your document with corresponding anchor names. Note how
 
 Be sure you include the jQuery js file before you reference the Slide Menu plugin js file.
 
-	<script src="js/jquery-1.5.min.js"></script>
+	<script src="js/jquery-1.6.1.min.js"></script>
 	<script src="js/jquery.slideMenu.min.1.0.1.js"></script>
 
 Finally, call slideMenu() on the jQuery-fied object of your menu.
