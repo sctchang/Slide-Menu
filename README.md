@@ -1,4 +1,4 @@
-# Slide Menu makes sliding menus \([Demo](http://scottchang.net/slidemenudemo)\)
+# Slide Menu makes sliding menus \([Demo](http://scottchang.net/slidemenudemo) & [Doc](http://scottchang.net/slidemenu)\)
 
 I developed this little plugin for my own purposes, but I hope it will help more people create sliding menus that glide along vertically as you scroll up and down. For convenience, it is bundled with Smooth Anchors 2 by Ian Whitcomb.
 
@@ -41,7 +41,7 @@ Next mark up the rest of your document with corresponding anchor names. Note how
 Be sure you include the jQuery js file before you reference the Slide Menu plugin js file.
 
 	<script src="js/jquery-1.5.min.js"></script>
-	<script src="js/jquery.slideMenu.min.1.0.js"></script>
+	<script src="js/jquery.slideMenu.min.1.0.1.js"></script>
 
 Finally, call slideMenu() on the jQuery-fied object of your menu.
 
@@ -61,7 +61,13 @@ For basic usage with element highlighting, provide more options like below. Acti
 	        smoothAnchors : { 'speed' : 400 }
 	    });
 	});
-   
+
+### Version Changes
+#### 1.0.1
+- added 'slide' option for static menus
+
+**This project is under the MIT license**
+
 **For options documentation and more examples, go to [http://scottchang.net/slidemenu](http://scottchang.net/slidemenu)**
 
 *Copyright (c) 2011 Scott Chang <scott@scottchang.net>*
